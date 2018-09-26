@@ -1,2 +1,2 @@
 # Android-ListView
-A simple example of ListView in Android
+Example of ListView with custom layout and custom adapter.
