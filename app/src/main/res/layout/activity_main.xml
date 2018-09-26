@@ -6,9 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".ui.MainActivity">
 
+<Button
+    android:layout_width="wrap_content"
+    android:id="@+id/addPlayer"
+    android:onClick="AddPlayer"
+    android:text="Add new Player"
+    android:layout_centerHorizontal="true"
+    android:layout_height="wrap_content" />
 
     <ListView
         android:id="@+id/listView"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/addPlayer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 </RelativeLayout>

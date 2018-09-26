@@ -53,6 +53,8 @@ public class CustomAdapter extends BaseAdapter {
         convertView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                dataSet.add(new Player("Yaser Hameed",12));
+                notifyDataSetChanged();
                 Toast.makeText(mContext, "You Clicked: "+dataSet.get(position).getPlayerName(), Toast.LENGTH_SHORT).show();
             }
         });
